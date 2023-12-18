@@ -5,7 +5,8 @@ class Immagine extends Component {
         return(
          <div>
              <img src={this.props.src} alt={this.props.src} />
-             <p>ciao</p>
+             <p>{this.props.paragrafo}</p>
+             <p>{this.props.paragrafo2}</p>
          </div>
          )
     }
